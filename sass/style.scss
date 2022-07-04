@@ -1,0 +1,126 @@
+@import "nullstyle.scss";
+
+/*!!!*dont touch!!!*/
+
+.display-4 {
+	font-size: 50px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.h4 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.card {
+	width: 1016px;
+	border: 1px solid rgb(209, 206, 206);
+	background-color: #fff;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.leaf {
+	width: 80px;
+	height: 80px;
+}
+.list-group {
+}
+.list-group-flush {
+}
+.list-group-item {
+	border-bottom: 1px solid rgb(209, 206, 206);
+}
+.empty-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(197, 196, 196);
+	&__title {
+		font-size: 30px;
+	}
+}
+.none {
+	display: none;
+}
+.task-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 20px;
+	padding: rem(10) rem(20);
+
+	&__buttons {
+	}
+}
+.done {
+	width: 40px;
+	height: 40px;
+}
+.btn-action img {
+	//снимает события с картинки
+	pointer-events: none;
+}
+.task-title--done {
+	text-decoration: line-through;
+}
+.cross {
+	width: 40px;
+	height: 40px;
+}
+.task-title {
+}
+.btn-action {
+}
+
+.bg-light {
+}
+.card-header {
+	background-color: rgb(219, 215, 215);
+	padding: 15px;
+	border-bottom: 1px solid rgb(175, 173, 173);
+}
+.card-body {
+}
+.form-group {
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-control {
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid rgb(219, 215, 215);
+	flex: 0 0 100%;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.form-control:focus {
+	box-shadow: 0px 0px 3px 3px rgb(0, 132, 255);
+}
+.form-text {
+	margin-bottom: 10px;
+	color: rgb(148, 147, 147);
+}
+.text-muted {
+}
+.btn {
+	background-color: blue;
+	font-size: 25px;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: #fff;
+	margin: rem(0) rem(0) rem(20) rem(10);
+}
+.btn-primary {
+}
+.btn-lg {
+}
+.active {
+}
+.copyright {
+	text-align: center;
+	font-size: 30px;
+}
